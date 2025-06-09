@@ -1,16 +1,87 @@
 ---
-
+import "../styles/global.css";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Eric Teubert</title>
+  </head>
 </html>
+<body class="px-[10vw] py-[15vh]">
+  <header class="font-mono tracking-tighter">
+    <h1 class="text-4xl font-bold mb-1">Eric Teubert</h1>
+    <p class="text-lg">
+      Elixir Backend Engineer & Open Source Software Maintainer
+    </p>
+  </header>
+  <div class="mt-10 text-xl flex flex-col gap-4 max-w-screen-sm">
+    <p>Hi, I’m Eric.</p>
+    <p>
+      I’m the creator and maintainer of <a
+        class="underlined text-blue-500"
+        href="https://wordpress.org/plugins/podlove-podcasting-plugin-for-wordpress/"
+        target="_blank"
+        rel="noopener noreferrer">Podlove Podcast Publisher</a
+      >, an open source WordPress plugin powering thousands of podcasts.
+    </p>
+    <p>
+      I’m currently available for <strong
+        >remote contract work or full-time opportunities</strong
+      > focused on backend engineering with Elixir.
+    </p>
+    <p>Based in Malaysia (UTC+8).</p>
+    <p>
+      <a class="underlined text-blue-500" href="mailto:eric@ericteubert.de"
+        >Get in touch</a
+      >
+    </p>
+  </div>
+  <div class="mt-20 text-sm flex flex-col gap-1 max-w-screen-sm">
+    <a href="https://podlove.org" target="_blank" rel="noopener noreferrer"
+      ><span class="underlined underlined-sm">podlove.org</span></a
+    >
+    <a
+      href="https://github.com/eteubert"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><span class="underlined underlined-sm">GitHub</span></a
+    >
+    <a
+      href="https://chaos.social/@ericteubert"
+      target="_blank"
+      rel="noopener noreferrer"
+      rel="me"><span class="underlined underlined-sm">Mastodon</span></a
+    >
+    <a
+      href="https://www.linkedin.com/in/eric-teubert/"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><span class="underlined underlined-sm">LinkedIn</span></a
+    >
+  </div>
+</body>
+<div class="mt-20 text-sm flex flex-col gap-1 max-w-screen-sm">
+  <span>
+    <a
+      href="https://media.ccc.de/v/subscribe11-58222-podlove-podcast-publisher"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><span class="underlined underlined-sm"
+        >media.ccc.de/v/subscribe11-58222-podlove-podcast-publisher</span
+      ></a
+    > &mdash; Talk: "Open Source Podcast Hosting with Podlove Publisher" (Subscribe
+    11, 2024, German 🇩🇪)
+  </span>
+  <span>
+    <a
+      href="https://people.zsa.io/eric-teubert/"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><span class="underlined underlined-sm">people.zsa.io/eric-teubert</span
+      ></a
+    > &mdash; Interview by ZSA, who made my mechanical keyboard (ErgoDox EZ)
+  </span>
+</div>
